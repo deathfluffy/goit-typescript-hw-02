@@ -6,7 +6,6 @@
 
   Виправте тип у аргументі функції так, щоб не було помилок типу.
 */
-
 type User = {
   name: string;
   surname: string;
@@ -14,7 +13,7 @@ type User = {
   password: string;
 }
 
-function createOrUpdateUser(initialValues: User) {
+function createOrUpdateUser(initialValues: Partial<User>) {
   // Оновлення користувача
 }
 
